@@ -1,0 +1,41 @@
+.item-list {
+  margin-top: 30px;
+}
+
+.item-list h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.item-list ul {
+  list-style: none;
+}
+
+.item-card {
+  background-color: #f5f5f5;
+  border-left: 4px solid #667eea;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.item-card:hover {
+  transform: translateX(5px);
+}
+
+.item-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.item-card p {
+  color: #666;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.item-card small {
+  color: #999;
+}
